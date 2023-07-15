@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: col;
+    justify-content: center;
+    background: linear-gradient(rgb(83, 176, 243), rgb(35, 130, 35));
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 100px;
+    background-position: cover;
+}
+img{
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 200px auto;
+    box-shadow: 0px 1px 30px 0px;
+
+}
+@media screen and (max-width: 300px )
+{
+    img{
+        height: 100px;
+        transition: 2s;
+        width: 250px;
+    }
+
+}
+@media screen and (max-width: 1000px )
+{
+    img{
+        height: 900px;
+        justify-self: center;
+        transition: 2s;
+        margin-right: 70px;
+    }
+
+}
+@media screen and (max-width: 400px )
+{
+    img{
+        height: 500px;
+        justify-self: center;
+        transition: 2s;
+    }
+
+}
