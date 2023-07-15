@@ -1,28 +1,36 @@
 body{
+    display: flex;
+    justify-content: center;
     flex-direction: column;
-    background: linear-gradient(rgb(83, 176, 243), rgb(35, 130, 35));
-    background-repeat: no-repeat;
+    background: linear-gradient(rgb(186, 186, 248) , rgb(171, 241, 171));
+   background-repeat: no-repeat;
+    border-radius: 30px;
+    margin-bottom: 60%;
 }
 div{
-    margin-top: 20%;
-    margin-left:20%;
-    margin-right: 20%;
+    align-content: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin-bottom: 20%;
+    flex-direction: column;
+    
+    
 }
 img {
     border-radius: 30px;
-    max-width: 1000px;
-    box-shadow: 0px 1px 30px 0px;
+    box-shadow: 0px 0px 10px 0px;
 
 }
 
-@media screen and (max-width: 400px )
+@media screen and (max-width: 500px )
 {
     img{
         border-radius: 15px;
+        margin-top: 30%;
+        
     }
+    body{
+        background-repeat:repeat-y;
+
+    };
 
 }
