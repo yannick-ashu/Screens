@@ -1,10 +1,10 @@
 body{
     display: flex;
-    flex-direction: col;
+    flex-direction: column;
     justify-content: center;
     background: linear-gradient(rgb(83, 176, 243), rgb(35, 130, 35));
     background-repeat: no-repeat;
-    background-position: cover;
+    background-position: contain;
 }
 div{
     display: flex;
